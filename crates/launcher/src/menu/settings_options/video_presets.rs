@@ -86,7 +86,7 @@ const PRESET_OPTIONS: &[PresetOption] = &[
     PresetOption {
         id: SettingId::MaxFramerate,
         values: [
-            Fixed(FRAME_RATE_UNLIMITED),
+            Fixed(60),
             Default,
             Fixed(FRAME_RATE_UNLIMITED),
         ],
